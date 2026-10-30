@@ -11,10 +11,8 @@
     </header>
     <section>
         <form action="" method="get">
-            <fieldset>
+            <!-- <fieldset>
                 <legend>Dados Pessoais</legend>
-
-                <!-- DADOS PESSOAIS -->
 
                 <label for="userName">Nome</label>
                 <input type="text" name="userName" required>
@@ -36,8 +34,26 @@
                 <br>
 
                 <button type="submit">Enviar</button>
+            </fieldset> -->
+
+
+                <!-- DADOS PERFIL -->
+            
+            <fieldset>
+                <legend>Perfil</legend>
+                
+                <p>Gênero:</p>
+                <input type="radio" name="userGender" value="Feminino">
+                <label for="userGender">Feminino</label>
+                <br>
+                <input type="radio" name="userGender" value="Masculino">
+                <label for="userGender">Masculino</label>
+                <br>
+                <input type="radio" name="userGender" value="notInformed">
+                <label for="userGender">Prefiro não informar</label>
+                <br>
             </fieldset>
-        
+                
         </form>
     </section>
 </body>
