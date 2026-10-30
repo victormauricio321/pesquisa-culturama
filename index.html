@@ -131,7 +131,27 @@
                 <br>
                 <label for="favoriteColor">Cor favorita</label>
                 <input type="color" name="userFavoriteColor" id="favoriteColor">
+            </fieldset>
 
+            <fieldset>
+                <legend>Opiniões</legend>
+                
+                <p>Qual o nível de satisfação:</p>
+                <input id="great" type="radio" name="userServiceOpinion" value="great">
+                <label for="great">Ótima</label>
+                <br>
+                <input id="good" type="radio" name="userServiceOpinion" value="good">
+                <label for="good">Boa</label>
+                <br>
+                <input id="regular" type="radio" name="userServiceOpinion" value="regular">
+                <label for="regular">Regular</label>
+                <br>
+                <input id="bad" type="radio" name="userServiceOpinion" value="bad">
+                <label for="bad">Ruim</label>
+                <br>
+
+                <label for="opinion">Deixe um comentário sobre o Culturama:</label>
+                <textarea id="opinion" name="userOpinion" placeholder="Digite aqui sua opinião..."></textarea>
 
             </fieldset>
             <button type="submit">Enviar</button>
