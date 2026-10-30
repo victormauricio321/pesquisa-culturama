@@ -54,6 +54,15 @@ AULA 01- CONTRUINDO COMPONENTES DO FORMULÁRIO COM HTML
             git commit -m "Cria sessao de dados pessoais"
             git push -u
 
+            caso o 'git push -u' não funcione, execute o seguinte comando para vincular sua nova branch ao servidor:
+                git push --set-upstream origin feat/dados-pessoais
+            seguindo essas etapas, criará uma pull request no GITHUB
+            aceitando o pull request, estará aceitando fazer o MERGE das alterações feitas na nova branch para a main
+        
+        RETORNANDO A BRANCH 'MAIN' PARA PUXAR AS ALTERAÇÕES QUE SUBIRAM PARA O GITHUB:
+            git checkout main
+            
+
 
         *BOAS PRÁTICAS*:
             valores de atributos escrever sempre em ingles
