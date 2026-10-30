@@ -1,0 +1,62 @@
+AULA 01- CONTRUINDO COMPONENTES DO FORMULÁRIO COM HTML
+
+    2.
+
+        COMANDOS GIT:
+            git init
+            git status
+            git add .
+            git status
+            git commit -m "Commit Inicial"
+
+        DEPOIS DE CRIADO O COMMIT NO GIT, FAZENDO O PUSH PARA O GITHUB:
+            git remote add origin https://github.com/victormauricio321/pesquisa-culturama.git
+            git branch -M main
+            git push -u origin main
+
+
+        SUGESTÃO PARA DESENVOLVER O FORMULÁRIO:
+            1 -criar sessões:
+                de dados pessoais
+                perfil
+                e assim por diante
+
+            2- então criar uma branch para cada seção:
+                git branch feat/dados-pessoais -> para criar uma branch nova para trabalhar nessa seção
+                git branch -> para visualizar as branchs existentes
+                git checkout feat/dados-pessoais -> para entrar numa branch criada
+
+        PENSANDO NO HTML DE FORMA SEMANTICA:
+            pensar em tags mais utilizadas:
+                HEADER
+                MAIN
+                SECTION
+                FOOTER
+
+
+
+
+    3.
+
+        atributo 'action' recebe a URL do destino dos dados inseridos naquele <form>;
+        atributo 'method' é a forma de envio dos dados (metodo 'get' e 'post');
+        tag <input>: tudo que eu coloco no atributo 'name' ajuda a localizar o valor de um input a um tipo de dado;
+        atributo 'required' para tornar o campo obrigatório para preenchimento
+
+        TAGS SEMANTICAS TANTO PARA SEO (MECANISMOS DE BUSCAS) QUANTO PARA O LEITOR DE TELE (ACESSIBILIDADE):
+            <fieldset>: conjunto de assuntos que tem relação entre si
+                        cria uma divisão, uma borda
+            <legend>: título da fieldset
+
+        TERMINANDO AS MODIFICAÇÕES DA SESSÃO 'DADOS PESSOAIS', COMMITAR:
+            git status
+            git add .
+            git commit -m "Cria sessao de dados pessoais"
+            git push -u
+
+
+        *BOAS PRÁTICAS*:
+            valores de atributos escrever sempre em ingles
+
+        
+
