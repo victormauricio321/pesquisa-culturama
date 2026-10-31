@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* calcula automaticamente as bordas */
+}
+
+body{
+    background-color: #f9f9f9;
+    font-family: "Work Sans", "sans-serif";
+}
+
+h1{
+    font-family: "Fjalla One", sans-serif;
+    border: 1px solid #cccccc;
+    padding: 15px;
+}
